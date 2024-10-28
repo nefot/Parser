@@ -23,8 +23,6 @@ for row in table.find_all("tr")[1:]:
 
 
         print(len(fio) )
-
-        # if len( columns[0].text.strip().split(' ')) == 3:
         partonimic  =fio[2]
 
         registration_date = columns[1].text.strip()
